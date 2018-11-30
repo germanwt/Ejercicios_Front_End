@@ -1,5 +1,11 @@
-# Ejercicios Front_End
+<h1 align="center">
 
-                    <h1>Programa academico en alta especialización para Front-End</h1>
+<img src="https://cibernarium.barcelonactiva.cat/documents/10180/693138/IT+logo.png/1c84715b-b403-4f41-9b5d-8691f99dec40?t=1520933248611">
+<br>
+<br> Programa academico de alta especialización en TIC
 
-Este es una serie de ejercicios sobre HTML, CSS y JavaScript para el entrenamiento y practica del software. Así mismo para el curso de IT Academy en el marco de capacitación por Barcelona Activa. 
+<br>
+    <br>
+</h1>
+
+> Esta colección de archivos y ejercicios, es una serie de ejercicios sobre HTML, CSS, JavaScript, JQuery, AJAX, Boostrap y Angular. Este entrenamiento y practica, en el marco de la capacitación IT Academy de Barcelona Activa. Un programa de alta especialización TIC para capacitar los perfiles cualificados que demandan el mercado de TIC.
