@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio DOM, eventos y funciones</title>
+
+    <script type = 'text/javascript' src = '14_Ejer_DOM.JS'></script>
+    <style>
+        .box{
+            width: 200px;
+            height: 250px;
+            float: left;
+            margin: 20px;
+        }
+        .dashed{
+            border: 3px dashed black; 
+            padding: 5px; 
+        }
+    
+    </style>
+</head>
+<body>
+
+<!--
+    1. Formulario con los cmapos nombres, apellidos y edad
+    2. Boton enviar formulario: submit
+    3. Mostrar datos por pantalla
+    4. validacion de formulario
+
+-->
+    <h1>Ejercicio DOM, eventos y funciones crusos JS</h1>
+
+    <div clsas='box'>
+    <form action="#" method="POST" id="formulario" onsubmit="return false;">
+        <label for="nombre">nombre: </label> <br>
+        <input type="text" name="nombre" id="nombre"><br>
+
+        <label for="apellidos">apellidos: </label> <br>
+        <input type="text" name="apellidos" id="apellidos"/><br>
+
+        <label for="edad">edad: </label><br>
+        <input type="number" name="edad" id="edad"><br>
+
+        <input type="submit" value="Enviar" id="submit">
+   </form>
+</div>
+
+<div class="box dashed">
+<h3>informacion del usuario</h3>
+<hr>
+<p>
+    
+</p>
+</div>
+
+
+
+</body>
+</html>
