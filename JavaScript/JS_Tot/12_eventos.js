@@ -1,3 +1,4 @@
+
 'use strict'
 
 // eventos del mouse
@@ -52,7 +53,7 @@ inpiut.addEventListener('focus', function(){
 inpiut.addEventListener('blur', function(){
     console.log('estas fuera input'); 
 }); 
-/*
+
 // keydown
 
 inpiut.addEventListener('keydown', function(event){
@@ -70,5 +71,5 @@ inpiut.addEventListener('keypress', function(event){
 inpiut.addEventListener('keyup', function(event){
     console.log('tecla soltada', String.fromCharCode(event.keyCode)); 
 }); 
-*/
+
 }); 
