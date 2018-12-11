@@ -1,0 +1,37 @@
+.center{
+    text-align: center; 
+}
+
+.rate{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none; 
+
+}
+
+Label{
+    float: right;
+    font-size: 0;
+    color: red;
+    margin: 10px; 
+
+}
+
+label:before{
+    content: '\f58a'; 
+    font-family: 'Font Awesome 5 free'; 
+    font-size: 60px; 
+
+}
+
+label:hover, label:hover~label{
+    color: yellowgreen; 
+    transition: 0.2s; 
+
+}
+
+.active {
+    color: yellowgreen; 
+    
+}
