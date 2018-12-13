@@ -1,0 +1,17 @@
+
+<div style="text-align:left">
+  <h1>
+    Bienvenido a  {{ title }}!
+  </h1>
+  <p>Vamos aprender Angular</p>
+
+  <button (click)='ocultarvideojuegos(false)'*ngIf='mostrar_videojuegos'>Ocultar</button>
+  <button (click)='ocultarvideojuegos(true)'*ngIf='!mostrar_videojuegos'>Mostrar</button>
+
+  <videojuego *ngIf='mostrar_videojuegos'></videojuego>
+  <zapatillas></zapatillas>
+  <cursos></cursos>
+  
+
+  </div>
+
