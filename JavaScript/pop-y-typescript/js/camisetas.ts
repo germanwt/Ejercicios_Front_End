@@ -63,6 +63,8 @@ class Sudadera extends Camisetas {
 
 }
 
+
+
  
 var camiseta = new Camisetas('rojo', 'manga larga', 'nike','L',14);
 
